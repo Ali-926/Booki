@@ -26,10 +26,10 @@ body {
 }
 
 .main-container {
-   width: 100%;
-   max-width: 1440px;
-   padding: 0 50px;
-   box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
 a {
@@ -430,7 +430,8 @@ li {
 
 
 .activites-cards .card img {
-  height: 439px;
+  height: 380px;
+  width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
@@ -438,7 +439,7 @@ li {
 .activites-cards .card h3 {
   font-weight: 700;
   font-size: var(--font-size-small);
-  padding: 15px;
+  padding: 20px;
   color: black
 }
 
